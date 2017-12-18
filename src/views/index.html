@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="UTF-8" />
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+
+        <title>Hello, world!</title>
+
+        <link href="../assets/css/photon.css" media="all" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <body>
+
+        <div class="window" id="root"></div><!-- #root.window -->
+
+        <script type="text/javascript">window.exports = module.exports</script>
+        <script src="../assets/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+
+            i18n = require( '../i18n' )
+
+            window.i18n = new i18n.I18N()
+
+        </script>
+        <script src="../react/app.js" type="text/javascript"></script>
+
+    </body>
+
+</html>
